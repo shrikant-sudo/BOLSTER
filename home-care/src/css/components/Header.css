@@ -1,0 +1,134 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    background-color: #e8ae51;
+    color: #fff !important;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    background: transparent !important;
+    padding-left: 38px !important;
+    padding-top: 5px;
+}
+
+.App-logo {
+    width: 100px;
+    height: 45px;
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav li {
+    font-weight: 500;
+    margin-right: 50px;
+}
+
+.menu-option {
+    margin-left: 10%;
+}
+
+.header-menu {
+    display: flex;
+    color: #fff;
+}
+
+a:visited {
+    color: #fff;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+.navbar-toggle {
+    background-color: #e8ae51;
+    color: white;
+    padding: 20px 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.main-body {
+    height: 530px;
+}
+
+.left-nav {
+    width: 235px;
+    height: 100%;
+    background-color: white;
+}
+
+.right-content {
+    width: 100%;
+    background-color: rgba(255, 255, 255, .45);
+    position: relative;
+    display: inline;
+    margin-top: 30px;
+}
+
+.nav-menu {
+    list-style-type: none;
+    padding: 0;
+    display: inline;
+}
+
+.navbar-sidebar-open {
+    width: 200px;
+    background-color: #504f4f;
+    height: 103%;
+    padding-top: 1px;
+    opacity: 4;
+}
+
+.navbar-sidebar-close {
+    width: 60px;
+    background-color: #504f4f;
+    height: 103%;
+}
+
+.nav-menu-list {
+    padding-top: 10px;
+    margin-top: 10px;
+    color: white !important;
+    margin-left: 45px;
+}
+
+.main-body {
+    display: flex;
+}
+
+.login {
+    display: inline-flex;
+    margin-left: 350px;
+}
+
+.login-nav-open {
+    display: inline-flex;
+    margin-left: 265px;
+}
+
+
+.log-menu {
+    display: inline-flex;
+    padding: 15px;
+
+}
+
+.log-menu-item {
+    font-weight: 500;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.Content-Style {
+    height: 60%;
+    width: 80%;
+}

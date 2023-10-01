@@ -1,0 +1,43 @@
+.navbar {
+ align-items: center;
+ background-color: #999898;
+ color: #fff;
+ height: 495px;
+}
+
+.navbar-toggle {
+ background-color: white;
+ color: blue;
+ padding: 20px 25px;
+ border: none;
+ cursor: pointer;
+}
+
+.nav-menu {
+ display: block;
+ list-style-type: none;
+ padding: 0;
+}
+
+.nav-menu li a {
+ color: #333;
+ text-decoration: none;
+ padding: 10px 20px;
+}
+.navbar-sidebar-open {
+  width: 200px;
+}
+.navbar-sidebar-close{
+    width: 50px;
+}
+.nav-menu-list{
+padding-top: 10px ;
+margin-top: 10px;
+}
+a:visited {
+    color: #fff !important;
+  }
+  /* mouse over link */
+a:hover {
+    color: hotpink !important;
+  }
