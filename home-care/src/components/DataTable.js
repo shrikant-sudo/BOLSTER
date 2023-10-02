@@ -42,7 +42,7 @@ export default function DataGridDemo() {
 
     const fetchUserData = () => {
 
-        axios.get("http://localhost:8080/employee/api/employees").then((response) => {
+        axios.get("http://54.152.30.133:8080/employee/api/employees").then((response) => {
             setUsers(response.data);
           })
         }
